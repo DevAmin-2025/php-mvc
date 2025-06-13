@@ -1,0 +1,18 @@
+{
+    "name": "amin/php-mvc",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/Controllers",
+            "Models\\": "src/Models",
+            "Views\\": "Views/"
+        },
+        "files": ["src/helper.php"]
+    },
+    "authors": [
+        {
+            "name": "Amin Mohamadi",
+            "email": "amindevzone@gmail.com"
+        }
+    ],
+    "require": {}
+}
